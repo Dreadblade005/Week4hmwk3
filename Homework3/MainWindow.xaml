@@ -1,0 +1,17 @@
+﻿<Window x:Class="Homework3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Homework3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Process Payment" HorizontalAlignment="Left" VerticalAlignment="Top" Width="111" Margin="340,238,0,0" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Name ="total_balance"  Height="33" Margin="253,177,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="87" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Name ="user_payment"  Height="33" Margin="444,177,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="84" TextChanged="TextBox_TextChanged_1"/>
+        <Label Content="Outstanding Balance" HorizontalAlignment="Left" Margin="238,146,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Mortgage Payment" HorizontalAlignment="Left" Height="26" Margin="430,146,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
